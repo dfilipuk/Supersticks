@@ -1,5 +1,5 @@
 @echo off
 SETLOCAL
 
-cd .\Supersticks\bin
+cd .\src\bin
 http-server
