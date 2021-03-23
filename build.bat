@@ -3,7 +3,7 @@ SETLOCAL
 
 CALL config.bat
 
-cd .\Supersticks
+cd .\src
 
 IF NOT EXIST .\bin\ MD bin
 %_fasm% .\Supersticks.asm .\bin\Sticks.com
