@@ -1,5 +1,5 @@
 @echo off
 SETLOCAL
 
-cd .\src\bin
+cd ..\src\bin
 http-server
