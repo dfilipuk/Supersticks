@@ -7,7 +7,7 @@ Players take from 1 to 3 sticks from board in turn. Player who took last stick l
 Use flat assembler (FASM) compiler to build application and any MS-DOS emulator to run it.
 ### Docker
 - Build image with `docker build -t supersticks [--build-arg FASM_VERSION=<desired_fasm_version>] .`
-- Run container with `docker run --name Supersticks -dp 8000:8000 supersticks`
+- Run container with `docker run --name Supersticks -dp 8000:80 supersticks`
 - Navigate to http://127.0.0.1:8000
 ### Manual build
 - Set `7-Zip` archiver path to `_7zip` variable in `config.bat.template`
