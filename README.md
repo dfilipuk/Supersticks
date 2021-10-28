@@ -22,4 +22,4 @@ Use flat assembler (FASM) compiler to build application and any MS-DOS emulator 
 - Run `start.bat` to start HTTP server
 - Navigate to http://127.0.0.1:8080
 
-![Supersticks demo](https://raw.githubusercontent.com/Kupilif/Supersticks/master/Supersticks.GIF)
+![Supersticks demo](./Supersticks.GIF)
