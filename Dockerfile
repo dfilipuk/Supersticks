@@ -8,9 +8,8 @@ COPY src .
 RUN fasm/fasm Supersticks.asm Sticks.com
 RUN zip Sticks.zip Sticks.com
 
-FROM python:3-alpine
-EXPOSE 8000
-WORKDIR /app
+FROM nginx:1.21.3-alpine
+EXPOSE 80
+WORKDIR /usr/share/nginx/html
 COPY src/bin/index.html index.html
 COPY --from=builder /app/Sticks.zip Sticks.zip
-ENTRYPOINT [ "python3", "-m", "http.server", "8000" ]
