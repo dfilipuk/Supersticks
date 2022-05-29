@@ -1,8 +1,10 @@
 # Supersticks
 ## Overview
 Game application in x86 assembly language.
-## Rules
+### Rules
 Players take from 1 to 3 sticks from board in turn. Player who took last stick loses.
+
+![Supersticks demo](./Supersticks.GIF)
 ## Build & Run
 Use flat assembler (FASM) compiler to build application and any MS-DOS emulator to run it.
 ### Docker
@@ -21,5 +23,3 @@ Use flat assembler (FASM) compiler to build application and any MS-DOS emulator 
 - Run `build.bat release` to build application
 - Run `start.bat` to start HTTP server
 - Navigate to http://127.0.0.1:8080
-
-![Supersticks demo](./Supersticks.GIF)
